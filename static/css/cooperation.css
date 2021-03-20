@@ -1,0 +1,110 @@
+.top-img{
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 30%;
+}
+.top-img{
+    width: 100%;
+    height: 100%;
+}
+.content-box{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: #0BB20C;*/
+    margin: 82px auto;
+}
+.title{
+    width: 143px;
+    height: 96px;
+    /*background: #2a2a2a;*/
+    margin: 0 auto 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-zh{
+    height: 61px;
+    width: 100%;
+    font-family: SourceHanSansSC-Bold;
+    font-size: 28px;
+    padding-top: 28px;
+    color: #333333;
+}
+.title-en{
+    font-family: Calibri;
+    font-size: 14px;
+    margin: 5px auto;
+    /*color: #C2C2C2;*/
+}
+.title-border-bottom{
+    width: 26px;
+    height: 4px;
+    background-color: #089efe;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /*background: #00FFFF;*/
+}
+.box-left{
+    width: 500px;
+    height: auto;
+    /*background: #f1f1e3;*/
+}
+.box-right{
+    width: 500px;
+    height: auto;
+    /*background: #ff0055;*/
+}
+.box-item{
+    width: 100%;
+    height: 510px;
+    align-items: center;
+    position: relative;
+}
+.item1-selected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/trans_selected.png') no-repeat;
+}
+.item1-unselected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/trans_unselected.png') no-repeat;
+}
+.item2-selected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/ad_selected.png') no-repeat;margin-top: 284px;
+}
+.item2-unselected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/ad_unselected.png') no-repeat;margin-top: 284px;
+}
+.item3-unselected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/change_unselected.png') no-repeat;margin-top: 386px
+}
+.item3-selected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/change_selected.png') no-repeat;margin-top: 386px
+}
+.item4-unselected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/tool_unselected.png') no-repeat;margin-top: 254px
+}
+.item4-selected{
+    background-size: 100% 100%;background: url('https://staticwxappt.loke123.com/luokeHome/images/tool_selected.png') no-repeat;margin-top: 254px
+}
+.selected-color{
+    color: #fff
+}
+.unselected-color{
+    color: #333;
+}
+.item-title{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    /*margin: 382px auto 139px auto;*/
+    font-size: 40px;
+}
+

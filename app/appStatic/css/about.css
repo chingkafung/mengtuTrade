@@ -1,0 +1,115 @@
+.top-img{
+    position: relative;
+    top: .90rem;
+    width: 7.50rem;
+    height: 3.50rem;
+    display: flex;
+    flex-direction: column;
+}
+.top-img img{
+    width: 7.50rem;
+    height: 3.50rem;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .9rem;
+    background: #9bcc60;
+    width: 100%;
+    height: 5.32rem;
+    background: url("https://staticwxappt.loke123.com/luokeHome/app/first_bg.jpg");
+    background-size: 100% 100%;
+}
+.first-top{
+    width: 100%;
+    height: 1.13rem;
+    margin-top: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .4rem;
+    /*background: #ff0055;*/
+}
+.first-line{
+    width: 2.95rem;
+    height: .01rem;
+    background-color: #7d7d7d;
+}
+.logo-img{
+    margin:0 .10rem;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.first-content{
+    height: 1.70rem;
+    width: 9.00rem;
+    /*background: #9bcc60;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-content .title{
+    font-size: .32rem;
+    color: #333333;
+    margin-bottom: .30rem;
+}
+.first-content .desc{
+    text-align: center;
+    width: 6.22rem;
+    height: .75rem;
+    font-size: .24rem;
+    line-height: .40rem;
+    color: #666;
+}
+.second{
+    width: 7.50rem;
+    height: 4.40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://staticwxappt.loke123.com/luokeHome/app/second_bg.jpg");
+    background-size: 100% 100%;
+}
+.second .title{
+    margin-top: .52rem;
+    margin-bottom: .42rem;
+    font-size: .32rem;
+    color: #ffffff;
+}
+.content{
+    width: 98%;
+    height: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.map{
+    width: 100%;
+    height: 5.03rem;
+    /*background: url("https://staticwxappt.loke123.com/luokeHome/images/map.jpg");*/
+    /*background-size: 100% 100%;*/
+}
+/*.map-text{*/
+    /*width: 4.97rem;*/
+    /*height: 3.00rem;*/
+    /*margin-top: .32rem;*/
+    /*padding-left: .40rem;*/
+    /*padding-top: .40rem;*/
+    /*background-color: #ffffff;*/
+    /*box-shadow: 05px 9px 24px 0px rgba(0, 0, 0, 0.1);*/
+    /*opacity: 0.93;*/
+    /*margin-left: 51%;*/
+
+    /*color: #666666;*/
+/*}*/
+/*.company{*/
+    /*font-size: 30px;*/
+    /*font-weight: bold;*/
+    /*margin-bottom: 20px;*/
+/*}*/
+/*.address,.code,.tel{*/
+    /*font-size: 18px;*/
+    /*line-height: 2.0;*/
+/*}*/
